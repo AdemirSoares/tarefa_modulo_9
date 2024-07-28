@@ -74,7 +74,7 @@ ul li {
     list-style: none;
 }
 
-li:active {
+.line-through {
     text-decoration: line-through;
-    transition: 1s;
+    transition: text-decoration 0.3s ease;
 }

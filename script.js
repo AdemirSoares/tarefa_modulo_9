@@ -5,8 +5,8 @@ $('form').on('submit', function(e) {
     novoItem.append(novaTarefa);
     $(novoItem).appendTo('#lista-tarefas');
     $('#nome-tarefa').val('');
-
-    $('#lista-tarefas').on('click', 'li', function() {
-        $(this).toggleClass('line-through');
-    });
 })
+
+$('#lista-tarefas').on('click', 'li', function() {
+    $(this).toggleClass('line-through');
+});
